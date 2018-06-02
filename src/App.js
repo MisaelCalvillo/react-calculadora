@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+// Import components 
+import Calculator from './components/Calculator/Calculator';
+
 class App extends Component {
   render() {
     return (
@@ -13,6 +16,8 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+
+        <Calculator />
       </div>
     );
   }
